@@ -1,0 +1,21 @@
+pkgbase = android-vnc-viewer-git
+	pkgdesc = Android VNC Viewer.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g9e027d6d3eb4cb99b9df8857662893cc70c3f339
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-vnc-viewer
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = android-utils
+	depends = libcrash-bash
+	provides = android-vnc-viewer=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.g9e027d6d3eb4cb99b9df8857662893cc70c3f339
+	conflicts = android-vnc-viewer
+	source = android-vnc-viewer.tar.gz::https://github.com/themartiancompany/android-vnc-viewer/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = android-vnc-viewer-git
